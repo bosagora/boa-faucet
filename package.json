@@ -1,0 +1,42 @@
+{
+  "name": "boa-faucet",
+  "version": "1.0.0",
+  "description": "A faucet for EVM TestNet",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zeroone-boa/boa-faucet.git"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint"
+  },
+  "license": "MIT",
+  "keywords": [
+    "bosagora",
+    "faucet",
+    "testnet",
+    "boa",
+    "ethereum"
+  ],
+  "engines": {
+    "node": ">=9.3.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "module-alias": "^2.1.0",
+    "morgan": "^1.9.0",
+    "web3": "^1.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-plugin-react": "^7.10.0"
+  },
+  "_moduleAliases": {
+    "@": "src",
+    "@api": "src/api",
+    "@services": "src/services"
+  }
+}
