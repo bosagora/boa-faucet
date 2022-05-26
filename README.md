@@ -44,7 +44,7 @@ then sending them to the blockchain.
 
 ## How to get a BOA
 
-GET `https://faucet.bosagora.org:8000/request/boa/` + Your's BOA Address
+GET `https://faucet.bosagora.org/request/boa/` + Your's BOA Address
 
 ## Licence
 MIT
